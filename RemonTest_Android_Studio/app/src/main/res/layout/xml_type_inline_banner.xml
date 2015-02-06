@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/libs/kr.co.dnasoft.remontest"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+        android:background="@drawable/logo" />
+
+    <kr.co.dnasoft.remonsdk.AdView
+        android:id="@+id/remon_adview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:refreshInterval="30"
+        app:testMode="true"
+        app:background="#B2EBF4"
+        app:terms="true"
+        app:cId="MTQxMDg3NDQ1MzY3OTc4"
+        />
+    
+    <!-- 
+    app:accunttype="adv"
+     -->
+    
+</RelativeLayout>

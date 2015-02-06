@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/libs/kr.co.dnasoft.remontest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_layout"
+    android:orientation="vertical" >
+    
+    <kr.co.dnasoft.remonsdk.AdView
+        android:id="@+id/remon_adview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:refreshInterval="30"
+        app:testMode="true"
+        app:background="#B2EBF4"
+        app:cId="MTQxMDg3NDQ1MzY3OTc4"
+        />
+
+</LinearLayout>
